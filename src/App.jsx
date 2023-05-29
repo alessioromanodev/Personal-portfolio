@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import EarthCanvas from "./Components/EarthCanvas";
+import Stack from "./Components/Stack";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           <div id="hero-container">
             <Hero />
           </div>
+        </div>
+        <div>
+          <Stack />
         </div>
       </main>
     </div>
