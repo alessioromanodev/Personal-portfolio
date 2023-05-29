@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
+import EarthCanvas from "./Components/EarthCanvas";
 
 function App() {
   return (
@@ -9,8 +10,16 @@ function App() {
         <Header />
       </header>
       <main>
-        <div className="w-1/3 m-auto">
-          <Hero />
+        <div
+          id="landing-container"
+          className="flex m-auto justify-center items-center gap-5"
+        >
+          <div id="earth-container">
+            <EarthCanvas />
+          </div>
+          <div id="hero-container">
+            <Hero />
+          </div>
         </div>
       </main>
     </div>

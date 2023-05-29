@@ -16,6 +16,21 @@
   }
 }
 
+#earth-container {
+  height: 50vh;
+  width: 50vh;
+}
+
+#hero-container {
+  height: 50vh;  
+  width: 50vh;
+}
+
+#landing-container{
+  width: 70vh;
+  height: 70vh;
+}
+
 #navIcon:hover {
   animation: spin 0.05s linear;
   transform: rotate(0deg);
