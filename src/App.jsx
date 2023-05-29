@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import EarthCanvas from "./Components/EarthCanvas";
 import Stack from "./Components/Stack";
+import Bio from "./Components/Bio";
 
 function App() {
   return (
@@ -22,8 +23,11 @@ function App() {
             <Hero />
           </div>
         </div>
-        <div>
+        {/* <div>
           <Stack />
+        </div> */}
+        <div>
+          <Bio />
         </div>
       </main>
     </div>

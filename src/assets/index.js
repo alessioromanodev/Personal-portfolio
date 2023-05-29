@@ -10,6 +10,7 @@ import bootstrap from "./tech/bootstrap.png";
 import csharp from "./tech/csharp.png";
 import dotnet from "./tech/dotnet.png";
 import sqlserver from "./tech/sqlserver.png";
+import pizzeriavesuvio from "./pizzeriavesuvio.png";
 
 export {
   css,
@@ -24,4 +25,5 @@ export {
   sqlserver,
   csharp,
   dotnet,
+  pizzeriavesuvio,
 };

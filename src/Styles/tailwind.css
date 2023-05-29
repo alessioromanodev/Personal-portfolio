@@ -27,12 +27,10 @@
 }
 
 #landing-container{
-  width: 60vh;
-  height: 60vh;
+  height: 100vh;
 }
 
-#navIcon:hover {
-  animation: spin 0.05s linear;
-  transform: rotate(0deg);
+#navbar-translucent{
+  position: sticky;
+  top: 0;
 }
-

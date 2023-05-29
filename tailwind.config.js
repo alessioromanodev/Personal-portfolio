@@ -2,6 +2,10 @@
 export default {
   content: ["./src/**/*.{js,jsx}", "./index.html"],
   theme: {
+    backdropFilter: {
+      none: "none",
+      blur: "blur(20px)",
+    },
     colors: {
       redAccent: "#ef4444",
       altGray: "#313134",
@@ -17,5 +21,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-filters")],
 };
