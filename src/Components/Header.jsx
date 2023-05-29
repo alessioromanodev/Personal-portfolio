@@ -12,12 +12,12 @@ function Header() {
                 version="1.0"
                 id="Layer_1"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 width="16px"
                 height="16px"
                 viewBox="0 0 64 64"
-                enable-background="new 0 0 64 64"
-                xml:space="preserve"
+                enableBackground="new 0 0 64 64"
+                xmlSpace="preserve"
               >
                 <path
                   fill="#111827   "
