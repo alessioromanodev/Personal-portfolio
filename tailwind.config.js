@@ -7,6 +7,7 @@ export default {
       blur: "blur(20px)",
     },
     colors: {
+      mainGray: "#202023",
       redAccent: "#ef4444",
       altGray: "#313134",
       mainWhite: "#eeeeee",
@@ -22,4 +23,5 @@ export default {
     },
   },
   plugins: [require("tailwindcss-filters")],
+  darkMode: "class",
 };

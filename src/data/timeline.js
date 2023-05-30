@@ -3,7 +3,7 @@ const timeStamps = [
     name: ".NET developer generation course",
     date: "February 2023 - July 2023",
     description:
-      "Intensive course on: .NET Core, WFP, ADO.net, SQLServer, ASP.NET, EntityFramework, workflow .NET (devtools, debug ).",
+      "Intensive course on: .NET Core, WFP, ADO.net, SQLServer, ASP.NET, EntityFramework, workflow .NET (devtools, debug).",
   },
   {
     name: "Bachelor's degree in Software Engineering",
