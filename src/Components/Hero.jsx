@@ -6,7 +6,7 @@ function Hero() {
     <div>
       <div id="hero-container" className="flex justify-center items-center">
         <div>
-          <div className="mt-10 mb-5 bg-altGray bg-opacity-10 p-4 rounded-lg">
+          <div className="mt-10 mb-5 bg-altGray bg-opacity-10 dark:bg-opacity-50 p-4 rounded-lg">
             <p className="text-center ">
               Hi, i'm a full stack software developer based in Italy!
             </p>
