@@ -4,6 +4,9 @@ import Hero from "./Components/Hero";
 import EarthCanvas from "./Components/EarthCanvas";
 import Stack from "./Components/Stack";
 import Bio from "./Components/Bio";
+import Timeline from "./Components/Timeline";
+import ContactMe from "./Components/ContactMe";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -23,13 +26,22 @@ function App() {
             <Hero />
           </div>
         </div>
-        {/* <div>
-          <Stack />
-        </div> */}
         <div>
           <Bio />
         </div>
+        <div>
+          <Stack />
+        </div>
+        <div>
+          <Timeline />
+        </div>
+        <div>
+          <ContactMe />
+        </div>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

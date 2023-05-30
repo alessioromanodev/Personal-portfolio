@@ -1,6 +1,6 @@
 function Bio() {
   return (
-    <div className="w-1/4 mx-auto mb-10">
+    <div className="w-1/4 mx-auto mb-20">
       <h1 className="text-3xl font-medium decoration-detailGray decoration-solid underline mb-2">
         Bio
       </h1>
@@ -11,7 +11,7 @@ function Bio() {
         <br />
         When i'm not coding, i'm usually playing guitar &#127928; (huge arctic
         monkeys fan right here!). If you want to know more about me, checkout my
-        instagram page! &#128519;
+        instagram page! &#128519;.
       </p>
       <a
         href="https://www.instagram.com/allennnnn_____/"
@@ -20,7 +20,7 @@ function Bio() {
         <span className=" decoration-solid decoration-detailGray underline">
           Allennnnn_____
         </span>
-        &#8599;
+        &#128247;
       </a>
     </div>
   );

@@ -8,15 +8,12 @@ function Header() {
           </span>
           <div className="flex space-x-4 text-gray-900">
             <a href="#" className="font-medium">
-              Works
-            </a>
-            <a href="#" className="font-medium">
               Devlog
             </a>
-            <a href="#" className="font-medium">
+            <a href="https://github.com/AlessioRoman" className="font-medium">
               Source
             </a>
-            <a href="#" className="font-medium">
+            <a href="#contactme" className="font-medium">
               Contact me
             </a>
           </div>
