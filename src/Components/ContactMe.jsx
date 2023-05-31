@@ -21,7 +21,7 @@ function ContactMe() {
           </li>
           <li>
             <a
-              href="https://www.instagram.com/allennnnn_____/"
+              href="https://instagram.com/allennnnn_____?igshid=OGQ5ZDc2ODk2ZA=="
               className="font-medium"
             >
               <span className=" decoration-solid decoration-detailGray underline text-xl">
