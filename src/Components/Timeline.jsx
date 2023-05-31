@@ -1,8 +1,8 @@
-import timeStamps from "./../data/timeline";
+import timeStamps from "../data/timeline";
 
 function Timeline() {
   return (
-    <div className="w-1/4 m-auto mb-20">
+    <div className="w-2/3 md:w-1/4 m-auto mb-20">
       <h1 className="text-3xl font-medium decoration-detailGray decoration-solid underline mb-2">
         Timeline
       </h1>

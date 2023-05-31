@@ -7,7 +7,7 @@ import CanvasLoader from "./CanvasLoader";
 
 function EarthCanvas() {
   return (
-    <div id="earth-container" className="flex justify-center items-center">
+    <div className="md:w-500 md:h-500">
       <Canvas
         shadows
         frameloop="always"

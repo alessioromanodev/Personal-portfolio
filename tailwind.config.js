@@ -17,6 +17,9 @@ export default {
       gray200: "#e5e7eb",
     },
     extend: {
+      spacing: {
+        500: "500px",
+      },
       fontFamily: {
         plus: ["M PLUS Rounded 1c", "sans-serif"],
       },

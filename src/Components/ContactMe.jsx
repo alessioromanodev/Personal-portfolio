@@ -1,7 +1,7 @@
 function ContactMe() {
   return (
     <div>
-      <div id="contactme" className="w-1/4 mx-auto mb-20">
+      <div id="contactme" className="w-2/3 md:w-1/4 mx-auto mb-20">
         <h1 className="text-3xl font-medium decoration-detailGray decoration-solid underline mb-2">
           Contact Me
         </h1>

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import EarthCanvas from "./Components/EarthCanvas";
 import Stack from "./Components/Stack";
+import EarthCanvas from "./Components/Canvas/EarthCanvas";
 import Bio from "./Components/Bio";
 import Timeline from "./Components/Timeline";
 import ContactMe from "./Components/ContactMe";
@@ -14,15 +14,12 @@ function App() {
       <header>
         <Header />
       </header>
-      <main>
-        <div
-          id="landing-container"
-          className="flex m-auto justify-center items-center gap-5"
-        >
-          <div id="earth-container">
+      <main className="md:p-0">
+        <div className="mb-20 md:h-screen md:flex m-auto md:justify-center md:items-center md:gap-5">
+          <div>
             <EarthCanvas />
           </div>
-          <div id="hero-container">
+          <div>
             <Hero />
           </div>
         </div>
