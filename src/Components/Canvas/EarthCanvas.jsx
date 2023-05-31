@@ -7,7 +7,7 @@ import CanvasLoader from "./CanvasLoader";
 
 function EarthCanvas() {
   return (
-    <div className="md:w-500 md:h-500">
+    <div className="w-64 h-64 m-auto md:w-500 md:h-500">
       <Canvas
         shadows
         frameloop="always"
