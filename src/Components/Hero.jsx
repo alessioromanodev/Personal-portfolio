@@ -23,6 +23,13 @@ function Hero() {
                 </span>
               </li>
             </ul>
+            <a
+              href="./Alessio_Romano_CV.pdf"
+              download
+              className="p-2 mt-2 border-1 bg-altGray bg-opacity-10 dark:bg-altGray dark:hover:bg-redAccent rounded-md inline-block hover:bg-redAccent hover:text-mainWhite "
+            >
+              &#128193; Download CV
+            </a>
           </div>
           <img
             width="96px"
